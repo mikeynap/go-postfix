@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle go-postfix",
-        "command": "go-postfix:toggle"
+        "label": "expand posfix",
+        "command": "go-postfix:expand"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "go-postfix",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "go-postfix:toggle"
+              "label": "expand",
+              "command": "go-postfix:expand"
             }
           ]
         }

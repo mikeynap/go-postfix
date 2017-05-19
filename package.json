@@ -1,12 +1,12 @@
 {
   "name": "go-postfix",
   "main": "./lib/go-postfix",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Golang Postfix Expansion.",
   "keywords": ["go","golang","postfix","must","expansion"
   ],
   "activationCommands": {
-    "atom-workspace": "go-postfix:toggle"
+    "atom-workspace": "go-postfix:expand"
   },
   "repository": "https://github.com/mikeynap/go-postfix",
   "license": "MIT",
