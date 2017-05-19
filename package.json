@@ -1,9 +1,14 @@
 {
   "name": "go-postfix",
   "main": "./lib/go-postfix",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Golang Postfix Expansion.",
-  "keywords": ["go","golang","postfix","must","expansion"
+  "keywords": [
+    "go",
+    "golang",
+    "postfix",
+    "must",
+    "expansion"
   ],
   "activationCommands": {
     "atom-workspace": "go-postfix:expand"
@@ -13,6 +18,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
