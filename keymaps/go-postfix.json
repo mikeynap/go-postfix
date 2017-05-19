@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "cmd-i": "go-postfix:toggle"
+  }
+}
