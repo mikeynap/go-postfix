@@ -8,11 +8,12 @@
     "golang",
     "postfix",
     "must",
-    "expansion"
+    "expansion",
+    "ternary",
+    "map",
+    "reduce",
+    "apply"
   ],
-  "activationCommands": {
-    "atom-workspace": "go-postfix:expand"
-  },
   "repository": "https://github.com/mikeynap/go-postfix",
   "license": "MIT",
   "engines": {
