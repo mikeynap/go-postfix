@@ -152,11 +152,27 @@ if b != nil {
 }
 ```
 
+### .catchPrint, .tryPrint
+Functionally a .catch with a Printf inside the body. The printer defaults to fmt.Print(f/ln), but a different base can be specified in the settings.
+
+`f().catchPrint(v1, _)`
+```
+if v1, _, err := f(); err != nil {
+  fmt.Printf("v1: %v, err: %v\n",v1, err)
+}
+```
+
 
 ### .print, .printf(fmtString)
 `expr.print`
 ```
 fmt.Println(expr)
+```
+
+`a,b := thing().print`
+```
+a,b := thing()
+fmt.Printf("a: %v, b: %v\n", a, b)
 ```
 
 `expr.printf`
